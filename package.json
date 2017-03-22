@@ -1,0 +1,30 @@
+{
+  "name": "mean-auth-app",
+  "version": "1.0.0",
+  "description": "Complete MEAN stack application with authentication using json web tokens",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biffyn/MEAN-Auth-App.git"
+  },
+  "author": "James Richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biffyn/MEAN-Auth-App/issues"
+  },
+  "homepage": "https://github.com/Biffyn/MEAN-Auth-App#readme"
+}
